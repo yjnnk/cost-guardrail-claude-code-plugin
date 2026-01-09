@@ -13,7 +13,7 @@ Automatically track your Claude Code spending and get warnings when approaching 
 
 ## Installation
 
-The plugin is already installed at:
+The plugin should be installed at:
 ```
 ~/.claude/plugins/cost-guardrails/
 ```
