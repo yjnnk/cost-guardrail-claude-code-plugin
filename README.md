@@ -37,7 +37,7 @@ The plugin uses Claude Code's hook system to:
 - **100%**: Budget exceeded
 - **125%**: Significantly over budget
 
-### Current Status
+### Current Status (example)
 
 You're currently at **26.6% of your budget** ($3.98 / $15.00).
 
