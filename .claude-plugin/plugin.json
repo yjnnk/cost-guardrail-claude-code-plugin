@@ -1,0 +1,27 @@
+{
+  "name": "cost-guardrails",
+  "version": "1.0.0",
+  "description": "Monthly budget tracking and warnings for Claude Code usage. Monitors spending against a $15/month limit and provides alerts at key thresholds.",
+  "author": {
+    "name": "User",
+    "email": "user@example.com"
+  },
+  "main": "hooks/hooks.json",
+  "commands": {
+    "cost-status": {
+      "description": "Show detailed cost breakdown for current month",
+      "command": "commands/cost-status.sh"
+    }
+  },
+  "hooks": [
+    "SessionStart",
+    "Stop"
+  ],
+  "dependencies": {
+    "python": ">=3.7"
+  },
+  "configuration": {
+    "budget_file": "config/budget_config.json",
+    "state_file": "~/.claude/cost_guardrails_state.json"
+  }
+}

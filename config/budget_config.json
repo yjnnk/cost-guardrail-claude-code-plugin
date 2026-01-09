@@ -1,0 +1,15 @@
+{
+  "monthly_budget": 15.00,
+  "warning_thresholds": [50, 75, 90, 100, 125],
+  "enabled": true,
+  "show_session_start_warnings": true,
+  "show_stop_summaries": true,
+  "currency": "USD",
+  "notes": [
+    "monthly_budget: Your monthly spending limit in dollars",
+    "warning_thresholds: Percentage thresholds for warnings (50 = 50% of budget)",
+    "enabled: Set to false to disable the plugin entirely",
+    "show_session_start_warnings: Show warnings at session start",
+    "show_stop_summaries: Show cost summary when session ends"
+  ]
+}
